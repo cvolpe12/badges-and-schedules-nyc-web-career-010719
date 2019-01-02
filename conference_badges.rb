@@ -9,3 +9,15 @@ def batch_badge_creator(speakers)
     badge_maker(names)
   end
 end
+
+def assign_rooms(rooms)
+  rooms = [1, 2, 3, 4, 5, 6, 7]
+  speakers = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
+
+
+end
+
+def printer
+  batch_badge_creator(speakers)
+  assign_rooms(rooms)
+end
