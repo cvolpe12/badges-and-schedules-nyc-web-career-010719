@@ -15,7 +15,7 @@ def assign_rooms(room_number)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   room_assignment = speakers.zip(room_number)
   room_assignment.each do |attendees|
-    puts "Hello, #{speakers}. You'll be assigned to room #{room_number}"
+    puts "Hello, #{room_assignment}. You'll be assigned to room #{room_assignment}"
   end
 end
 
