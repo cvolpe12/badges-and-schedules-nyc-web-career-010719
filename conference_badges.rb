@@ -10,10 +10,10 @@ def batch_badge_creator(speakers)
   end
 end
 
-def assign_rooms(rooms)
-  rooms = [1, 2, 3, 4, 5, 6, 7]
+def assign_rooms(room_number)
+  room_number = [1, 2, 3, 4, 5, 6, 7]
   speakers = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
-
+  puts "Hello, #{speakers}. You'll be assigned to room #{room_number}"
 
 end
 
